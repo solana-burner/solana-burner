@@ -7,7 +7,7 @@ import { Input } from "@/components/ui/input";
 
 const SOLANA_RPC = "https://api.mainnet-beta.solana.com"; // Solana mainnet RPC endpoint
 const BURN_ADDRESS = new PublicKey("11111111111111111111111111111111"); // Solana Burn Address
-const OWNER_WALLET = new PublicKey("YOUR_WALLET_ADDRESS"); // Your 5% fee wallet
+const OWNER_WALLET = new PublicKey("4tsqYXoU63pbS7oTXd51jHfFwRFgHmSwGBDFyvn74GeU"); // Your 5% fee wallet
 
 export default function BurnPage() {
     const wallet = useWallet();
